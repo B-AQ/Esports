@@ -3,65 +3,130 @@ body{
   background-color: #2b2e4a;
 }
 
- header{
+header{
   background-color: #e23e57;
   color: white;
   height: 50px;
   padding: 1%
 }
 
- header nav {
+header nav {
   position: absolute;
   right: 0;
   top: 0;
- }
-
- header nav ul li{
-   display: inline-block;
-   margin: 30px;
-   list-style: none;
- }
-
- header nav ul li a{
-   text-decoration: none;
-   color: white;
-   font-family: 'Noto Serif', serif;
 }
 
- header h1{
-   padding-left: 10%;
-    }
+header nav ul li{
+  display: inline-block;
+  margin: 30px;
+  list-style: none;
+}
+
+header nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Noto Serif', serif;
+}
+
+header nav ul li a:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  border-radius: 10%;
+}
+
+header h1{
+ padding-left: 10%;
+}
 
 #first{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
   font-style: oblique;
   font-weight: bold;
- margin: 0%;
- height: 30px;
- padding: 1%;
- background-color: #f8b595;
- }
+  margin: 0%;
+  height: 30px;
+  padding: 1%;
+  background-color: #f8b595;
+}
 
 #first div ul li{
   display: inline-block;
   list-style: none;
-    width: 10%;
-    padding-left: 5%;
+  width: 10%;
+  padding-left: 5%;
 }
 
 #first div ul li a{
-  text-decoration: none;
-  color: rgb(0, 0, 0);
+ text-decoration: none;
+ color: rgb(0, 0, 0);
 }
 
-.box-1 h3{
+/* top 1 */
+
+.box h3{
   color: white;
   font-size: 30px;
   padding-left: 5%;
-
 }
 
-.box-1 img{
+.box img{
   padding-left: 3%;
+}
+
+.box p{
+  padding-left: 5%;
+  padding-right: 60%;
+}
+
+hr{
+  margin: 5%;
+  border: 2px solid #f8b595;
+  border-radius : 5px;
+}
+
+/* mid-1 */
+
+.mid-1{
+  color: white;
+  padding-left: 5%;
+  font-size: 30px;
+}
+
+/* container */
+
+.container-1{
+  display: flex;
+  align-items: stretch;
+  justify-content: space-arounds;
+  padding-left: 4%;
+}
+
+.container-1 img{
+  width: 200px;
+  height: 300px;
+}
+
+footer{
+  background-color: #f8b595;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 1px;
+}
+
+footer nav ul li{
+ float: right;
+ display: inline-block;
+ padding-right: 5%;
+}
+
+footer nav ul li a{
+  color: black;
+  text-decoration: none;
+  margin: 30px;
+}
+
+footer h4{
+  text-align: center;
+  font-style: oblique;
+  font-weight: bold;
 }
